@@ -1,13 +1,14 @@
 # Notebooks
 
-This directory contains the Jupyter notebooks for the EuBIC 2026 Winter School.
+This directory contains the pyOpenMS Course notebooks for training events, workshops,
+and self-paced learning.
 
 ## Notebooks
 
-- [`EUBIC_Task0_Prerequisites.ipynb`](EUBIC_Task0_Prerequisites.ipynb) - Task 0: Prerequisites &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/EUBIC_Task0_Prerequisites.ipynb)
-- [`EUBIC_Task1_Peaks.ipynb`](EUBIC_Task1_Peaks.ipynb) - Task 1: Peaks &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/EUBIC_Task1_Peaks.ipynb)
-- [`EUBIC_Task2_ID.ipynb`](EUBIC_Task2_ID.ipynb) - Task 2: Identification &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/EUBIC_Task2_ID.ipynb)
-- [`EUBIC_Task3_Quant.ipynb`](EUBIC_Task3_Quant.ipynb) - Task 3: Quantification &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/EUBIC_Task3_Quant.ipynb)
+- [`PyOpenMS_Task0_Prerequisites.ipynb`](PyOpenMS_Task0_Prerequisites.ipynb) - Task 0: Prerequisites &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/PyOpenMS_Task0_Prerequisites.ipynb)
+- [`PyOpenMS_Task1_Peaks.ipynb`](PyOpenMS_Task1_Peaks.ipynb) - Task 1: Peaks &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/PyOpenMS_Task1_Peaks.ipynb)
+- [`PyOpenMS_Task2_ID.ipynb`](PyOpenMS_Task2_ID.ipynb) - Task 2: Identification &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/PyOpenMS_Task2_ID.ipynb)
+- [`PyOpenMS_Task3_Quant.ipynb`](PyOpenMS_Task3_Quant.ipynb) - Task 3: Quantification &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/PyOpenMS_Task3_Quant.ipynb)
 
 ## Running Notebooks
 

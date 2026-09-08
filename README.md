@@ -1,4 +1,8 @@
-# Update: Now tracks current pyopenms nightly
+# pyOpenMS Course
+
+Hands-on tutorials for proteomics data analysis with pyOpenMS, covering Python
+fundamentals, mass spectra, peptide identification, and quantification. The materials
+can be used for training events, workshops, and self-paced learning.
 
 ## Notebooks
 
@@ -6,10 +10,10 @@ Click a badge to run a notebook in Google Colab - nothing to install.
 
 | Notebook | Topic | Description | Run it |
 |----------|-------|-------------|--------|
-| **Task 0** | Prerequisites | Python, NumPy, pandas, and mass spectrometry fundamentals (optional) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/EUBIC_Task0_Prerequisites.ipynb) |
-| **Task 1** | Peaks | Protein digestion, MS1 visualization, isotope patterns, TIC | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/EUBIC_Task1_Peaks.ipynb) |
-| **Task 2** | Identification | Peptide database search, fragment spectra, scoring, mirror plots | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/EUBIC_Task2_ID.ipynb) |
-| **Task 3** | Quantification | Feature detection with Biosaur2, ID mapping, visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/EUBIC_Task3_Quant.ipynb) |
+| **Task 0** | Prerequisites | Python, NumPy, pandas, and mass spectrometry fundamentals (optional) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/PyOpenMS_Task0_Prerequisites.ipynb) |
+| **Task 1** | Peaks | Protein digestion, MS1 visualization, isotope patterns, TIC | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/PyOpenMS_Task1_Peaks.ipynb) |
+| **Task 2** | Identification | Peptide database search, fragment spectra, scoring, mirror plots | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/PyOpenMS_Task2_ID.ipynb) |
+| **Task 3** | Quantification | Feature detection with Biosaur2, ID mapping, visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timosachsenberg/PyOpenMSCourse/blob/main/notebooks/PyOpenMS_Task3_Quant.ipynb) |
 
 **New to Python or mass spectrometry?** Start with Task 0 to learn the fundamentals.
 
@@ -68,23 +72,23 @@ Using a virtual environment isolates the project dependencies and avoids conflic
 
 **On Windows (Command Prompt):**
 ```bash
-python -m venv eubic_env
-eubic_env\Scripts\activate
+python -m venv pyopenms_course
+pyopenms_course\Scripts\activate
 ```
 
 **On Windows (PowerShell):**
 ```powershell
-python -m venv eubic_env
-.\eubic_env\Scripts\Activate.ps1
+python -m venv pyopenms_course
+.\pyopenms_course\Scripts\Activate.ps1
 ```
 
 **On macOS/Linux:**
 ```bash
-python3 -m venv eubic_env
-source eubic_env/bin/activate
+python3 -m venv pyopenms_course
+source pyopenms_course/bin/activate
 ```
 
-You should see `(eubic_env)` at the beginning of your command prompt, indicating the virtual environment is active.
+You should see `(pyopenms_course)` at the beginning of your command prompt, indicating the virtual environment is active.
 
 #### Step 3: Install Dependencies
 
@@ -129,7 +133,7 @@ Your default web browser will open automatically with the Jupyter interface.
 #### Step 5: Open a Notebook
 
 1. In Jupyter, navigate to the `notebooks/` folder
-2. Click on a notebook file (e.g., `EUBIC_Task1_Peaks.ipynb`)
+2. Click on a notebook file (e.g., `PyOpenMS_Task1_Peaks.ipynb`)
 3. Run cells with `Shift + Enter` or the "Run" button
 
 ---
@@ -140,8 +144,8 @@ If you prefer conda for package management:
 
 ```bash
 # Create a new conda environment
-conda create -n eubic2026 python=3.10
-conda activate eubic2026
+conda create -n pyopenms_course python=3.10
+conda activate pyopenms_course
 
 # Install dependencies
 pip install -r requirements.txt
@@ -202,10 +206,10 @@ pio.renderers.default = "notebook"  # or "jupyterlab" for JupyterLab
 ```bash
 # With your virtual environment activated:
 pip install ipykernel
-python -m ipykernel install --user --name=eubic2026 --display-name="EuBIC 2026"
+python -m ipykernel install --user --name=pyopenms_course --display-name="pyOpenMS Course"
 ```
 
-Then restart Jupyter and select "EuBIC 2026" from Kernel > Change Kernel.
+Then restart Jupyter and select "pyOpenMS Course" from Kernel > Change Kernel.
 
 #### 6. Permission denied errors on Windows
 
@@ -251,10 +255,10 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 PyOpenMSCourse/
 ├── notebooks/
-│   ├── EUBIC_Task0_Prerequisites.ipynb  # Python & MS fundamentals
-│   ├── EUBIC_Task1_Peaks.ipynb          # Digestion & MS1 data
-│   ├── EUBIC_Task2_ID.ipynb             # Peptide identification
-│   └── EUBIC_Task3_Quant.ipynb          # Quantification
+│   ├── PyOpenMS_Task0_Prerequisites.ipynb  # Python & MS fundamentals
+│   ├── PyOpenMS_Task1_Peaks.ipynb          # Digestion & MS1 data
+│   ├── PyOpenMS_Task2_ID.ipynb             # Peptide identification
+│   └── PyOpenMS_Task3_Quant.ipynb          # Quantification
 ├── data/                                 # Sample data files
 ├── wheels/                               # Pinned pyOpenMS nightly wheels (Colab fallback)
 ├── scripts/
@@ -385,7 +389,3 @@ See [LICENSE](LICENSE) file for details.
 - [OpenMS](https://www.openms.de/) - Open-source software for mass spectrometry
 - [EuBIC](https://eubic-ms.org/) - European Bioinformatics Community
 - [pyopenms-viz](https://pyopenms-viz.readthedocs.io/) - Visualization library
-
----
-
-*Last updated: January 2026*
