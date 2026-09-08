@@ -274,7 +274,8 @@ PyOpenMSCourse/
 |------|------|-------------|---------|
 | `UPS1_5min.mzML` | 36 MB | 5-minute RT subset of UPS1 spike-in LC-MS data | Task 1, Task 2, Task 3 |
 | `UPS1_5min.idXML` | 14 KB | Peptide identifications for UPS1_5min.mzML | Task 3 |
-| `two_ups_proteins.fasta` | 3 KB | 2 UPS1 proteins (Complement C5, EGF) | Task 1, Task 2 |
+| `two_ups_proteins.fasta` | 3 KB | 2 UPS1 proteins (Complement C5, EGF) | Task 1 |
+| `ups1.fasta` | 20 KB | All 48 proteins of the UPS1 standard (UniProt; ubiquitin represented by polyubiquitin-C, P0CG48) | Task 2 |
 
 **Note:** Data files are automatically downloaded when running the notebooks. No manual download required.
 
